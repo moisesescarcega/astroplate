@@ -174,3 +174,14 @@
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:dark:text-darkmode-text;
 }
+
+.titprincipal {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.67);
+}
+
+.subtitprincipal {
+  color: orange;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.67);
+  font-weight: 600;
+}
