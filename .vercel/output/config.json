@@ -44,9 +44,9 @@
 			"status": 308
 		},
 		{
-			"src": "/\\/about/",
+			"src": "/\\/background/",
 			"headers": {
-				"Location": "/about"
+				"Location": "/background"
 			},
 			"status": 308
 		},
