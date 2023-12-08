@@ -9,7 +9,7 @@ import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 // import netlify from "@astrojs/netlify/functions";
 
-import vercel from "@astrojs/vercel/serverless";
+import vercelServerless from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -37,5 +37,5 @@ export default defineConfig({
     extendDefaultPlugins: true
   },
   output: "server",
-  adapter: vercel()
+  adapter: vercelServerless()
 });
