@@ -2,30 +2,30 @@
   "colors": {
     "default": {
       "theme_color": {
-        "primary": "#121212",
+        "primary": "#ef6a00",
         "body": "#fff",
-        "border": "#eaeaea",
-        "theme_light": "#f6f6f6",
+        "border": "#ef6a00",
+        "theme_light": "#ffc291",
         "theme_dark": ""
       },
       "text_color": {
-        "default": "#444444",
-        "dark": "#040404",
+        "default": "#174913",
+        "dark": "#174913",
         "light": "#717171"
       }
     },
     "darkmode": {
       "theme_color": {
         "primary": "#fff",
-        "body": "#1c1c1c",
-        "border": "#3E3E3E",
-        "theme_light": "#222222",
+        "body": "#174913",
+        "border": "#ef6a00",
+        "theme_light": "#518104",
         "theme_dark": ""
       },
       "text_color": {
-        "default": "#B4AFB6",
+        "default": "#eee",
         "dark": "#fff",
-        "light": "#B4AFB6"
+        "light": "#eee"
       }
     }
   },

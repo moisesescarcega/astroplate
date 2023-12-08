@@ -26,12 +26,12 @@ const { banner, features }: Homepage = homepage.data;
 
 <Base>
   <!-- Banner -->
-  <section class="section pt-14">
+  <section class="section pt-0 pb-6">
     <div class="container">
       <div class="row justify-center">
-        <div class="mb-16 text-center">
-          <div style="position: relative;">
-
+        <div class="mb-0 text-center">
+          <div class="relative mt-0 h-60 lg:h-96 bg-fixed" style=`background-image: url(${banner.image});`>
+<!-- 
             {
               banner.image && (
                 
@@ -41,11 +41,12 @@ const { banner, features }: Homepage = homepage.data;
                 width={1200}
                 alt="cronomonarca"
                 format="webp"
+                class="overflow-hidden"
                 />
                 
               )
-            }
-            <div style="position: absolute; inset: 15px;">
+            } -->
+            <div class="absolute inset-10">
               <h1 set:html={markdownify(banner.title)} class="mb-4 titprincipal" />
               <h5 set:html={markdownify(banner.content)} class="mb-8 subtitprincipal" />
               {

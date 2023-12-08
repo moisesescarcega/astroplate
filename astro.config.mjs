@@ -12,7 +12,7 @@ import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://astrocronomon.netlify.app",
+  site: config.site.base_url ? config.site.base_url : "https://golden-mooncake-bccdea.netlify.app/",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
