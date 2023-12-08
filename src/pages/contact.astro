@@ -1,11 +1,11 @@
 ---
-import config from "@/config/config.json";
+// import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 import { getEntry } from "astro:content";
 
 const contact = await getEntry("contact", "-index");
-const { contact_form_action }: { contact_form_action: string } = config.params;
+// const { contact_form_action }: { contact_form_action: string } = config.params;
 const { title, description, meta_title, image } = contact.data;
 ---
 
@@ -20,7 +20,8 @@ const { title, description, meta_title, image } = contact.data;
     <div class="container">
       <div class="row">
         <div class="mx-auto md:col-10 lg:col-6">
-          <form name="cronomontestform" method="POST" netlify>
+          <form name="cronomontestform" method="POST" data-netlify="true">
+            <input type="hidden" name="subject" value="Form from netlify" />
             <div class="mb-6">
               <label for="name" class="form-label">
                 Full Name <span class="text-red-500">*</span>
