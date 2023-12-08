@@ -5,12 +5,31 @@
       "url": "/"
     },
     {
+      "name": "Chapters",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Scientific Research",
+          "url": "/scientific-research"
+        },
+        {
+          "name": "Community",
+          "url": "/community"
+        }
+      ]
+    },
+    {
       "name": "Background",
       "url": "/background"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Directory",
+      "url": "/directory"
+    },
+    {
+      "name": "contact",
+      "url": "/contact"
     },
     {
       "name": "Pages",
@@ -46,8 +65,8 @@
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Home",
+      "url": "/"
     },
     {
       "name": "Privacy Policy",
