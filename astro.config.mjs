@@ -7,12 +7,13 @@ import { defineConfig, squooshImageService } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
+// import netlify from "@astrojs/netlify/functions";
 
-import netlify from "@astrojs/netlify/functions";
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "https://golden-mooncake-bccdea.netlify.app/",
+  site: config.site.base_url ? config.site.base_url : "https://astrocronomon3.vercel.app/",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
@@ -36,5 +37,5 @@ export default defineConfig({
     extendDefaultPlugins: true
   },
   output: "server",
-  adapter: netlify()
+  adapter: vercel()
 });
